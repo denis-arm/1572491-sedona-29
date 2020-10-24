@@ -137,6 +137,8 @@ img {
 	color: var(--basic-white);
 	background-color: var(--basic-brown-light);
 }
+
+/*footer*/
 .page-footer {
 	position: absolute;
 	right: 0;
