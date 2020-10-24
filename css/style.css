@@ -1,0 +1,167 @@
+
+:root
+{
+	--basic-white: #ffffff;
+	--basic-black: #000000;
+	--basic-black-light: #333333;
+	--basic-grey: #EEEEEE;
+
+/*blue*/
+	--basic-blue-light: #81B3D2;
+	--basic-blue: #669EC0;
+	--basic-blue-dark: #5496BD;
+
+/*brown*/
+	--basic-brown-light: #766357;
+	--basic-brown: #604E43;
+	--basic-brown-dark: #503E33;
+
+/*background-color*/
+	--basic-bgcl-grey: #888888;
+
+}
+
+/*global*/
+
+body
+{
+	min-width: 1200px;
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	background-color: var(--basic-bgcl-grey);
+	background-image: url("-");
+	background-position: top center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;	
+}
+
+a
+{
+	text-decoration: none;
+}
+
+img 
+{
+	max-width: 100%
+	height: auto;
+}
+.main-header
+{
+	background-color: var(--basic-white);
+}
+
+.site-navigacion
+{
+	font-size: 14px;
+	line-height: 26px;
+	color: var(--basic-black);
+	font-weight: 700;
+}
+
+.site-navigacion
+{
+	list-style: none;
+}
+
+.site-navigacion a
+{
+	color: var(--basic-black);
+}
+
+/*features*/
+
+.features-causes
+{
+	text-align: center;
+	background-color: var(--basic-white);
+}
+
+.features-causes h1
+{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.features-causes p
+{
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.features-list,
+.features-item-exotic
+{
+	text-align: center;
+}
+
+.features-list h2
+{
+	font-weight: 700;
+	font-size: 21px;
+}
+.features-list p
+{
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.features-item-exotic
+{
+	background-color: var(--basic-blue-light);
+}
+
+.features-item-namb
+{
+	background-color: var(--basic-grey );
+}
+.features-item-annumb
+{
+	background-color: var(--basic-white);
+}
+
+.search
+{
+	background-color: var(--basic-white);
+}
+
+.search h2
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 24px
+}
+
+.search p
+{
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px
+}
+
+.search
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.search-bottom
+{
+	color: var(--basic-white);
+	background-color: var(--basic-brown-light);
+}
+.page-footer
+{
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
