@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html  lang="ru">
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-body">
   	<header class="main-header">
   		<nav class="main-navigacion">
 			<a href="index.html" class="logo">
@@ -15,10 +15,10 @@
 			 alt="Логотип сайта">
 			</a>
   		 <ul class="site-navigacion">
-  		 	<li><a href="#">информация</a></li>
-  		 	<li><a href="#">фото и видео</a></li>
-  		 	<li><a href="#">карта штата</a></li>
-  		 	<li><a href="hotels.html">гостиницы</a></li>
+  		 	<li class="site-nav nav-info"><a href="#">информация</a></li>
+  		 	<li class="site-nav nav-photo"><a href="#">фото и видео</a></li>
+  		 	<li class="site-nav nav-map"><a href="#">карта штата</a></li>	
+  		 	<li class="site-nav nav-hotels"><a href="hotels.html">гостиницы</a></li>
   		 </ul>
   		</nav>
   	</header>
@@ -42,17 +42,25 @@
 
   	<footer class="page-footer">
   		<div class="footer-tag">
-  			<a href="#">#visitsedona</a>
-  			<span>ТЕЛ: +7(495) 666-01-66</span>
+ 			<div><a href="#">#visitsedona</a></div>
+  			<div class="mobil">ТЕЛ: +7(495) 666-01-66</div>
   		</div>
   		<div class="footer-social">
-  			<a class="social-btn" href="#"></a>
-  			<a class="social-btn" href="#"></a>
-  			<a class="social-btn" href="#"></a>
+  			<a class="social-btn" href="#">
+  				<img src="img/twitter.png" alt="twitter">
+  			</a>
+  			<a class="social-btn" href="#">
+  				<img src="img/fb-icon.png" alt="fb">
+  			</a>
+  			<a class="social-btn" href="#">
+  				<img src="img/youtube.png" alt="youtube">
+  			</a>
   		</div>
   		<div class="footer-copyright">
-  			<span>Website by</span>
-  			<a class="copyright-btn" href="https://htmlacademy.ru/"></a>
+  			<span class="text">Website by</span>
+  			<a class="copyright-btn" href="https://htmlacademy.ru/">
+  				<img src="img/logo-htmlacademy1.png" alt="Логотип htmlacademy">
+  			</a>
   		</div>
   	</footer>
 
