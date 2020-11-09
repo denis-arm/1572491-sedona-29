@@ -43,10 +43,11 @@
   			<div class="features-list">
 	  			<div class=" features-blue features-item-one">
 	  				<div class="features-item-exotic">
-		  				<h2>Настоящий городок</h2>
+		  				<h2>Настоящий <br>
+		  				 городок</h2>
 		  				<p>— №1 —</p>
-		  				<p>Седона - не аттракцион для туристов,<br>
-		  				 тамтечёт своя жизнь</p>
+		  				<p>Седона - не аттракцион для туристов, там<br>
+		  				 течёт своя жизнь</p>
 		  			</div>
 		  			<div class="photo-features">
 		  				<img src="img/image.jpg" alt="Фотография зданий">
@@ -55,24 +56,34 @@
 
 			  		<div class="features-item-annumb">
 						<div class="features-item features-an">
+							<img class="icon-house" src="img/icon-1.svg" alt="">
 							<h2>Жильё</h2>
-							<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>	
+							<p>Рекомендуем пожить в настоящем <br>
+							 мотеле, всё как в кино!</p>	
 						</div>
+
 						<div class="features-item features-an">
+							<img class="icon-burger" src="img/icon-3.svg" alt="">
 							<h2>Еда</h2>
-							<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>	
+							<p>Всегда заказывайте фирменный бургер,<br> 
+							 вы не разочаруетесь!</p>	
 						</div>
+
 						<div class="features-item features-an">
+							<img class="icon-present" src="img/icon-2.svg" alt="">
 							<h2>Сувениры</h2>
-							<p>Не только китайского, но и местного производства!</p>	
+							<p>Не только китайского, но и местного <br>
+							 производства!</p>	
 						</div>
+
 					</div>
 
 				<div class=" features-blue features-item-second">
 			  		<div class="features-item-exotic">
-			  			<h2>Там есть Мост дьявола</h2>
+			  			<h2>Там есть <br>
+			  			 Мост дьявола</h2>
 			  			<p>— №2 —</p>
-			  			<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+			  			<p>Да, по нему можно пройти! Если конечно <br> вы осмелитесь</p>
 			  		</div>
 			  		<div class="photo-features-second">
 			  			<img class="photo-features" src="img/image.jpg" alt="Фотография зданий">
@@ -81,56 +92,110 @@
 
 		  		<div class="features-item-namb">
 			  		<div class="features-item features-numb">
-			  			<h2>небольшая площадь</h2>
+			  			<h2>небольшая <br>
+			  			 площадь</h2>
 			  			<p>— №3 —</p>
-			  			<p>все достопримечательности находятся очень близко</p>
+			  			<p>все достопримечательности <br>
+			  			 находятся очень близко</p>
 			  		</div>
 			  		<div class="features-item features-numb">
-			  			<h2>красивая дорога</h2>
+			  			<h2>красивая <br>
+			  			 дорога</h2>
 			  			<p>— №4 —</p>
-			  			<p>ехать в седону из лас-вегаса совсем не скучно!</p>
+			  			<p>ехать в седону из лас-вегаса совсем <br>
+			  			 не скучно!</p>
 			  		</div>
 			  		<div class="features-item features-numb">
-			  			<h2>мало туристов</h2>
+			  			<h2>мало <br> туристов</h2>
 			  			<p>— №5 —</p>
-			  			<p>большинство едет в гранд каньон и толпится там</p>
+			  			<p>большинство едет в гранд каньон <br>
+			  			 и толпится там</p>
 			  		</div>
 			  	</div>
   			</div>
 
 	  		<div class="search">
 		  			<h2>заинтересовались?</h2>
-		  			<p>укажите предпологаемые даты поездки,</br>
+		  			<p>укажите предполагаемые даты поездки,</br>
 		  			   и мы покажем вам лучшие предложения гостиниц в Седоне
 		  			</p>
-		  			<a href="#" class="search-bottom">поиск гостиницы в седоне</a>
-		  			<img class="sedona-map" src="img/map.png" width="1200" height="593" alt="Изображение города Седона на карте">
+		  			<div class="search-wrapper">
+
+				  		<div class="bottom-search">
+				  			<button class="search-bottom" type="button">поиск гостиницы в седоне</button>
+				  		</div>
+
+				  		<div class="form-wrapper">
+					  		<div class="form-block">
+					  			<form class="form-search" action="">
+
+					  				<div class="form-1">
+					  					<label class="inf" for="arrival-date"> Дата заезда:</label>
+					  					<input class="date" type="text" name="date_in" id="arrival-date" value="24 апреля 2017">
+					  					<button class="form-calendar"></button>
+					  				</div>
+
+					  				<div class="form-2">
+					  					<label class="inf" for="departure-date"> Дата выезда: </label>
+					  					<input class="date" type="text" name="date_out" id="departure-date" value="4 июля 2017">
+					  					<button class="form-calendar"></button>
+					  				</div>
+
+					  				<div class="form-3">
+					  					<label class="type">взрослые:</label>
+						  					<div class="how-much">
+							  					<button class="button-minus"></button>
+							  					<input class="amount" type="text" name="adults" id="amount-adults" value="2">
+							  					<button class="button-plus"></button>
+						  					</div>
+
+						  				<label class="type-ch">дети:</label>
+						  					<div class="how-much-ch">
+							  					<button class="button-minus"></button>
+							  					<input class="amount" type="text" name="adults" id="amount-adults" value="0">
+							  					<button class="button-plus"></button>
+						  					</div>
+
+					  				</div>
+					  				<button class="form-search-buttom">найти</button>
+					  			</form>
+					  		</div>
+					  	</div>
+
+				  			<img class="sedona-map" src="img/map.png" width="1200" height="593" alt="Изображение города Седона на карте">
+		  			</div>
 	  		</div>
   	</main>
 
+  	<div class="footer-tag-one">
   	<footer class="page-footer">
+  		
   		<div class="footer-tag">
  			<div><a href="#">#visitsedona</a></div>
   			<div class="mobil">ТЕЛ: +7(495) 666-01-66</div>
   		</div>
+
   		<div class="footer-social">
-  			<a class="social-btn" href="#">
+  			<a class="social-btn" href="#" id="social-btn">
   				<img src="img/twitter.png" alt="twitter">
   			</a>
-  			<a class="social-btn" href="#">
+  			<a class="social-btn" href="#" id="social-btn">
   				<img src="img/fb-icon.png" alt="fb">
   			</a>
-  			<a class="social-btn" href="#">
-  				<img src="img/youtube.png" alt="youtube">
+  			<a class="social-btn" href="#" for="youtube-btn">
+  				<img src="img/youtube.png" alt="youtube" id="youtube-btn">
   			</a>
   		</div>
+
   		<div class="footer-copyright">
   			<span class="text">Website by</span>
   			<a class="copyright-btn" href="https://htmlacademy.ru/">
   				<img src="img/logo-htmlacademy1.png" alt="Логотип htmlacademy">
   			</a>
   		</div>
+
   	</footer>
+  	</div>
   	
   </body>
 </html>
